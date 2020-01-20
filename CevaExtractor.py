@@ -5,7 +5,6 @@
 import re #importazione modulo per le regexp
 import xlwt  #modulo che mi permette di gestire e manipolare fogli di calcolo excel 
 from xlwt import Workbook
-from playsound import playsound
 #########################FUNZIONI#######################################################################################################
 def LeggiFile(): #funzione che mi legge il file sorgente
     test = 0 #variabile booleana che prova a leggere il file finchè l'utente non inserisce il nome del file corretto 
